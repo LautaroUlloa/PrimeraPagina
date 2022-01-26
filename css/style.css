@@ -1,0 +1,64 @@
+body{
+    background-image: url("../img/Imagen\ de\ fondo.jpg");
+    background-size: cover;
+}
+span{
+    color: darkorchid;
+}
+
+.primerclass{
+    background-color: crimson;
+    color:darkcyan;
+    font-family: monospace;
+}
+
+.parrafo{
+    background-color: crimson;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: solid 2px blueviolet;
+}
+
+#imagen{
+    width: 1000px;
+    height: 1000px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.barra li {
+    list-style: none;
+    font-size: 20px;
+}
+
+.barra li a {
+    padding: 12px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.barra li a:hover {
+    background-color: dodgerblue;
+}
+
+.barra li a:active {
+    padding: 6px;
+    background-color: deepskyblue;
+    border-top: solid 5.5px dodgerblue;
+    border-left: solid 5.5px dodgerblue;
+    border-right: solid 5.5px blue;
+    border-bottom: solid 5.5px blue;
+}
+
+.cartas {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
